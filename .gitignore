@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+out/
+.debug
+.debugger
+.deps
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+
+# Marketplace data
+remix.lock.json
