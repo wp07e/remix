@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "double",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lastValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValueAndEmit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "scripts/deploy_with_ethers.ts",
+			"details": "ContractDescription",
+			"kind": "dev",
+			"methods": {},
+			"title": "ContractName",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EmitExample.sol": "EmitExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EmitExample.sol": {
+			"keccak256": "0x3d9c5bc43d3ee1fb652b47c4a4ae3b428e60c99d90da4920b14342465e362e98",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cffb50b1bf63340f38294223fb36ee1dfb0db9ccaffc498b9c75d23c78482159",
+				"dweb:/ipfs/QmfBuBKSZFk2hrTytHVbriiF5DQSajtmgY34nW9UKhiTCz"
+			]
+		},
+		"contracts/core/logger.sol": {
+			"keccak256": "0xbabbdca950647fbcd6b5e07172697fab925e2b9caf9d26120e8b9444ad516d8c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0881e3d71700678261cbf5eba4b6b1afb4f55cf3c1d86f98850f314c47e0f8c2",
+				"dweb:/ipfs/QmZ4eK6sPyDDCUp7bFqbRycKk6BZJYS2Er2sufWVAyY9PR"
+			]
+		}
+	},
+	"version": 1
+}
